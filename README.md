@@ -79,6 +79,23 @@ Customers were scored and segmented into groups such as Champions, Loyal, and At
 - Personalize offers for slow-returning customers.
 - Monitor retention buckets over time to track improvement.
 
+
+---
+
+## 📈 Business Impact
+
+This analysis helps the business understand customer behavior beyond total sales by identifying:
+
+- High-value customers (Champions) who should be protected and rewarded.
+- At-risk and hibernating customers who require re-engagement strategies.
+- The typical time it takes customers to return for a second purchase, enabling better-timed marketing campaigns.
+
+By acting on these insights, the business can:
+- Improve retention through targeted incentives.
+- Increase lifetime value by focusing on loyal segments.
+- Reduce churn by intervening before customers disengage.
+
+
 ---
 
 ## 📁 Repository Structure
