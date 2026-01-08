@@ -106,6 +106,10 @@ By acting on these insights, the business can:
 The business experienced declining customer activity over time.
 While new customers were acquired, retention weakened significantly, leading to unstable long-term growth.
 
+The objective of this analysis was to understand customer behavior, 
+identify retention patterns, and determine whether the business problem 
+was driven by acquisition, retention, or both.
+
 
 ## Dataset Overview
 The analysis uses transactional e-commerce data including orders, customers, and purchase history.
@@ -130,15 +134,26 @@ SQL used to compute:
     * Later cohorts show significantly weaker long-term engagement.
     * Retention issues pose a larger long-term risk than acquisition volume.
    
+
     ## Recommendations
-    * Introduce early post-purchase engagement (30–90 days).
-    * Focus retention efforts on high-value RFM segments.
-    * Improve retention before scaling acquisition spend.
-   
-  ## Repository Structure
-  /sql_queries
-/power_bi_dashboard
-README.md
+
+- Introduce early post-purchase engagement strategies within the first 30–90 days 
+  (e.g., onboarding emails, reminders, incentives) to reduce early customer churn.
+
+- Prioritize retention efforts toward high-value customer segments identified through RFM analysis, 
+  using loyalty programs or personalized offers to increase repeat purchases.
+
+- Improve customer retention metrics before scaling acquisition spend, 
+  ensuring new customers are retained long enough to generate sustainable lifetime value.
+
+
+
+  ## Tools Used
+
+- SQL (MySQL) for data extraction, aggregation, and metric calculation
+- Power BI for data visualization and dashboard creation
+- GitHub for version control and project documentation
+
 
 
 
