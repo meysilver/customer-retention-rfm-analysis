@@ -1,6 +1,6 @@
 # Customer Retention & RFM Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes customer purchasing behavior to understand retention patterns and customer value using SQL and Power BI.
 
 The analysis focuses on:
@@ -10,7 +10,7 @@ The analysis focuses on:
 
 ---
 
-## 🗂️ Dataset Description
+## Dataset Description
 The dataset represents an e-commerce business and includes:
 - Customers
 - Orders
@@ -24,7 +24,7 @@ Key fields:
 
 ---
 
-## 🧠 Business Questions
+##  Business Questions
 1. Who are the most valuable customers?
 2. How quickly do customers return after their first purchase?
 3. What portion of customers are at risk of churn?
@@ -32,14 +32,14 @@ Key fields:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - SQL (MySQL)
 - Power BI
 - GitHub
 
 ---
 
-## 🔍 Analysis Approach
+##  Analysis Approach
 
 ### 1. RFM Analysis
 - Recency: Days since last purchase
@@ -54,27 +54,30 @@ Customers were scored and segmented into groups such as Champions, Loyal, and At
 
 ---
 
-## 📊 Dashboards
+##  Dashboards
 
 ### RFM Segmentation
-*(Screenshot)*
+<img width="1225" height="666" alt="Screenshot 2026-01-07 194013" src="https://github.com/user-attachments/assets/9254e321-3f04-4818-98ac-5e9b981da218" />
+
 
 ### Customer Retention
-*(Screenshot)*
+<img width="1201" height="655" alt="Screenshot 2026-01-07 194200" src="https://github.com/user-attachments/assets/379e78d2-9778-4114-a544-8caae82c4c49" />
+
 
 ### Insights & Recommendations
-*(Screenshot)*
+
+<img width="1210" height="664" alt="Screenshot 2026-01-07 194330" src="https://github.com/user-attachments/assets/b052a66f-5979-45ac-be42-c6274bb5fc63" />
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 - Most customers return after more than 90 days, indicating a long repurchase cycle.
 - Average time to second purchase is approximately 133 days.
 - Early re-engagement between 30–90 days could improve repeat purchases.
 
 ---
 
-## 📈 Recommendations
+##  Recommendations
 - Launch reminder or incentive campaigns around the 60–90 day window.
 - Personalize offers for slow-returning customers.
 - Monitor retention buckets over time to track improvement.
@@ -82,7 +85,7 @@ Customers were scored and segmented into groups such as Champions, Loyal, and At
 
 ---
 
-## 📈 Business Impact
+##  Business Impact
 
 This analysis helps the business understand customer behavior beyond total sales by identifying:
 
@@ -98,5 +101,49 @@ By acting on these insights, the business can:
 
 ---
 
-## 📁 Repository Structure
+
+## Business Problem
+The business experienced declining customer activity over time.
+While new customers were acquired, retention weakened significantly, leading to unstable long-term growth.
+
+
+## Dataset Overview
+The analysis uses transactional e-commerce data including orders, customers, and purchase history.
+Key fields include order date, customer ID, order value, and product details.
+
+## Analysis Approach
+
+SQL used to compute:
+  * RFM scores
+  * Repeat customers
+  * Time to second purchase
+  * Monthly revenue, order, and customer trends
+    
+ Power BI used for:
+  * Customer segmentation dashboards
+  * Cohort retention matrix
+  * KPI tracking
+
+    ## Key Insights
+    * Customer retention declines sharply after early cohort months.
+    * Revenue can grow temporarily even while customer counts decline.
+    * Later cohorts show significantly weaker long-term engagement.
+    * Retention issues pose a larger long-term risk than acquisition volume.
+   
+    ## Recommendations
+    * Introduce early post-purchase engagement (30–90 days).
+    * Focus retention efforts on high-value RFM segments.
+    * Improve retention before scaling acquisition spend.
+   
+  ## Repository Structure
+  /sql_queries
+/power_bi_dashboard
+README.md
+
+
+
+
+
+
+
 
